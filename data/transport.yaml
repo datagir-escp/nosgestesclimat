@@ -599,7 +599,7 @@ transport . vélo . empreinte:
     Nous avons tous les ingrédients ici pour le faire, mais c'est loin d'être aussi simple. Le surplus d'activité physique est aussi associé à des risques et donc des dépenses de santé bien moindres.
 transport . vélo . km:
   titre: Kilomètres à vélo
-  question: "Je trouve un Vélib et j’arrive !" Combien de kilomètres de vélo ou marche fais-tu par semaine ?
+  question: Je trouve un Vélib et j’arrive ! Combien de kilomètres de vélo ou marche fais-tu par semaine ?
   description: |
     🚴 🛴 👟 
 

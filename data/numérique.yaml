@@ -6,7 +6,7 @@ numérique:
       - téléphone
       - TV
       - ordinateur portable
-      - ordinateur fixe
+#      - ordinateur fixe
       - internet
       - tablette
       - vidéoprojecteur
@@ -90,25 +90,25 @@ numérique . ordinateur portable:
   formule: 156 / (durée + 1)
   unité: kgCO2e
 
-#numérique . ordinateur fixe . présent:
-#  question: Utilisez-vous un ordinateur fixe ?
-#  par défaut: oui
-#numérique . ordinateur fixe . durée:
-#  question: Quel âge a votre ordinateur fixe ? 
-#  unité: ans
-#  par défaut: 5 ans
-#numérique . ordinateur fixe:
-#  icônes: 🖥
-#  description: |
-#    Un ordinateur fixe (avec une tour détachée de l'écran) ou un écran fixe. 
-#    
-#    Si vous possédez un écran fixe sans tour, avec un mini-ordinateur séparé ou intégré dans l'écran, répondez oui : l'écran fixe représente une empreinte non négligeable.
-#  note: |
-#    Nous estimons que l'appareil va durer un an de plus que l'âge renseigné au moment de l'estimation.
-#
-#    Le modèle MicMac parle d'ordinateur fixe haute performance ou d'ordinateur portable. 
-#    C'est perturbant pour l'utilisateur, car l'option ordinateur fixe pas haute performance n'est pas proposée. 
-#    Nous avons donc confondu fixe et fixe haute performance.
+numérique . ordinateur fixe . présent:
+  question: Utilisez-vous un ordinateur fixe ?
+  par défaut: oui
+numérique . ordinateur fixe . durée:
+  question: Quel âge a votre ordinateur fixe ? 
+  unité: ans
+  par défaut: 5 ans
+numérique . ordinateur fixe:
+  icônes: 🖥
+  description: |
+    Un ordinateur fixe (avec une tour détachée de l'écran) ou un écran fixe. 
+    
+    Si vous possédez un écran fixe sans tour, avec un mini-ordinateur séparé ou intégré dans l'écran, répondez oui : l'écran fixe représente une empreinte non négligeable.
+  note: |
+    Nous estimons que l'appareil va durer un an de plus que l'âge renseigné au moment de l'estimation.
+
+    Le modèle MicMac parle d'ordinateur fixe haute performance ou d'ordinateur portable. 
+    C'est perturbant pour l'utilisateur, car l'option ordinateur fixe pas haute performance n'est pas proposée. 
+    Nous avons donc confondu fixe et fixe haute performance.
 
   applicable si: présent
   formule: empreinte / (durée + 1)
