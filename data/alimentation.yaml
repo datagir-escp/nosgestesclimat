@@ -91,7 +91,7 @@ alimentation . boisson . eau en bouteille . empreinte:
 
 alimentation . boisson . eau en bouteille . affirmatif:
   titre: Eau en bouteille
-  question: Buvez-vous votre eau en bouteille ?
+  question: Bois-tu ton eau en bouteille ?
   par défaut: non
   description: |
     Si vous buvez principalement de l'eau du robinet et que votre consommation d'eau en bouteille se réduit à de rares occasions (par exemple un repas sur le pouce en boulangerie par semaine, avec leur fameux menu "sandwich + dessert + boisson en bouteille plastique"), répondez non.
@@ -116,7 +116,7 @@ alimentation . boisson . sucrées . facteur:
 
 alimentation . boisson . sucrées . litres: 
   titre: Consommation de boissons sucrées
-  question: Quelle est votre consommation par semaine de sodas, jus de fruit, sirops, etc. ?
+  question: Quelle est ta consommation par semaine de sodas, jus de fruit, sirops, etc. ?
   suggestions: 
     nulle: 0 l/semaine
     modérée: 1 l/semaine
@@ -141,7 +141,7 @@ alimentation . boisson . alcool . facteur:
 
 alimentation . boisson . alcool . litres: 
   titre: Consommation d'alcool
-  question: Quelle est votre consommation par semaine d'alcool (vin, bière, etc.) ?
+  question: Quelle est ta consommation par semaine d'alcool (vin, bière, etc.) ? au Quatter ou ailleurs.
   suggestions: 
     nulle: 0
     modérée: .5
@@ -382,7 +382,7 @@ alimentation . petit déjeuner:
       - sinon: 0
 
 alimentation . petit déjeuner . type: 
-  question: Quel petit déjeuner vous correspond le plus ?
+  question: Quel petit déjeuner te correspond le plus ? Qu’il soit pris en 4ème vitesse dans le métro, ou en mode brunch royal.
   description: |
     Il existe une variété infinie de petit déjeuners. Nous en avons sélectionné quelques uns pour que vous obteniez une réponse facilement.
 
@@ -565,7 +565,7 @@ facteur carbone CO2:
 
 alimentation . déchets . niveau d'engagement: 
   titre: Engagement zéro déchet
-  question: Êtes-vous engagé dans une démarche zéro déchet ?
+  question: Es-tu engagé dans une démarche zéro déchet ?
   description: |
     L'engagement zéro déchet consiste à réduire au maximum les achats d'aliments emballés (les yaourts sont donc exclus par exemple) et donc privilégier le vrac, 
     le compostage (en jardin ou en vermicompost) des déchets organiques, etc.

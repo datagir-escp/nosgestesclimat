@@ -32,8 +32,8 @@ numérique . internet . empreinte horaire:
   unité: kgCO2e/heure
 
 numérique . internet . durée journalière: 
-  question: Combien d'heures passez-vous par jour sur internet hors bureau (envoi de mail, surf Web, streaming vidéo, etc.) ?
-  description: Comptez seulement une estimation à la louche de vos heures hors bureau, car ce que vous faites au boulot entre dans la comptabilité de votre entreprise ou organisation.
+  question: Combien d'heures passes-tu par jour sur internet en dehors des cours (envoi de mail, surf Web, streaming vidéo, etc.) ?
+  description: Comptez seulement une estimation à la louche de vos heures hors cours, car ce que vous faites en cours entre dans la comptabilité de votre école.
   unité: heures
   par défaut: 2 heures
   suggestions: 
@@ -45,10 +45,10 @@ numérique . internet . durée journalière:
 
 numérique . appareil photo . présent:
   note: On range l'appareil photo dans la catégorie numérique vu la rareté des appareils argentiques aujourd'hui.
-  question: Utilisez-vous un appareil photo ?
+  question: Utilises-tu un appareil photo ?
   par défaut: non
 numérique . appareil photo . durée:
-  question: Quel âge a votre appareil photo ? 
+  question: Quel âge a ton appareil photo ? 
   unité: ans
   par défaut: 4 ans
 numérique . appareil photo:
@@ -59,10 +59,10 @@ numérique . appareil photo:
   note: Nous estimons que l'appareil va durer un an de plus que l'âge renseigné au moment de l'estimation.
 
 numérique . home cinéma . présent:
-  question: Utilisez-vous un home cinéma ?
+  question: Utilises-tu un home cinéma ?
   par défaut: non
 numérique . home cinéma . durée:
-  question: Quel âge a votre home cinéma ? 
+  question: Quel âge a ton home cinéma ? 
   unité: ans
   par défaut: 4 ans
 numérique . home cinéma:
@@ -74,10 +74,10 @@ numérique . home cinéma:
 
 
 numérique . ordinateur portable . présent:
-  question: Utilisez-vous un ordinateur portable ?
+  question: Utilises-tu un ordinateur portable ?
   par défaut: oui
 numérique . ordinateur portable . durée:
-  question: Quel âge a votre ordinateur portable ? 
+  question: Quel âge a ton ordinateur portable ? 
   unité: ans
   par défaut: 4 ans
 numérique . ordinateur portable:
@@ -90,25 +90,25 @@ numérique . ordinateur portable:
   formule: 156 / (durée + 1)
   unité: kgCO2e
 
-numérique . ordinateur fixe . présent:
-  question: Utilisez-vous un ordinateur fixe ?
-  par défaut: oui
-numérique . ordinateur fixe . durée:
-  question: Quel âge a votre ordinateur fixe ? 
-  unité: ans
-  par défaut: 5 ans
-numérique . ordinateur fixe:
-  icônes: 🖥
-  description: |
-    Un ordinateur fixe (avec une tour détachée de l'écran) ou un écran fixe. 
-    
-    Si vous possédez un écran fixe sans tour, avec un mini-ordinateur séparé ou intégré dans l'écran, répondez oui : l'écran fixe représente une empreinte non négligeable.
-  note: |
-    Nous estimons que l'appareil va durer un an de plus que l'âge renseigné au moment de l'estimation.
-
-    Le modèle MicMac parle d'ordinateur fixe haute performance ou d'ordinateur portable. 
-    C'est perturbant pour l'utilisateur, car l'option ordinateur fixe pas haute performance n'est pas proposée. 
-    Nous avons donc confondu fixe et fixe haute performance.
+#numérique . ordinateur fixe . présent:
+#  question: Utilisez-vous un ordinateur fixe ?
+#  par défaut: oui
+#numérique . ordinateur fixe . durée:
+#  question: Quel âge a votre ordinateur fixe ? 
+#  unité: ans
+#  par défaut: 5 ans
+#numérique . ordinateur fixe:
+#  icônes: 🖥
+#  description: |
+#    Un ordinateur fixe (avec une tour détachée de l'écran) ou un écran fixe. 
+#    
+#    Si vous possédez un écran fixe sans tour, avec un mini-ordinateur séparé ou intégré dans l'écran, répondez oui : l'écran fixe représente une empreinte non négligeable.
+#  note: |
+#    Nous estimons que l'appareil va durer un an de plus que l'âge renseigné au moment de l'estimation.
+#
+#    Le modèle MicMac parle d'ordinateur fixe haute performance ou d'ordinateur portable. 
+#    C'est perturbant pour l'utilisateur, car l'option ordinateur fixe pas haute performance n'est pas proposée. 
+#    Nous avons donc confondu fixe et fixe haute performance.
 
   applicable si: présent
   formule: empreinte / (durée + 1)
@@ -132,7 +132,7 @@ numérique . téléphone . présent:
 numérique . téléphone . type:
   applicable si: présent
   icônes: 🤙📱
-  question: Quel téléphone avez-vous ?
+  question: Quel téléphone as-tu ?
   formule:
     une possibilité:
       choix obligatoire: oui
@@ -166,7 +166,7 @@ numérique . téléphone:
   note: Nous estimons que l'appareil va durer un an de plus que l'âge renseigné au moment de l'estimation.
 
 numérique . téléphone . durée:
-  question: Quel âge a votre téléphone ? 
+  question: Quel âge a ton téléphone ? 
   unité: ans
   par défaut: 2 ans
 
@@ -227,10 +227,10 @@ numérique . tablette:
   note: Nous estimons que l'appareil va durer un an de plus que l'âge renseigné au moment de l'estimation.
 
 numérique . TV . présent:
-  question: Utilisez-vous une TV ?
+  question: Utilises-tu une TV ?
   par défaut: oui
 numérique . TV . durée:
-  question: Quel âge a votre TV ? 
+  question: Quel âge a ta TV ? 
   unité: ans
   par défaut: 4 ans
 numérique . TV:

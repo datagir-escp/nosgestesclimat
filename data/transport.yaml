@@ -58,7 +58,7 @@ transport . voiture . voyageurs:
 
 transport . voiture . km:
   titre: Km en voiture
-  question: Quelle distance parcourez-vous à l'année en voiture ?
+  question: Quelle distance parcoures-tu à l'année en voiture ?
   description: |
     Ne comptez que les kilomètres de déplacement personnel (courses, loisirs, famille etc.) et de déplacement domicile travail pour rejoindre votre lieu de travail habituel.
 
@@ -73,7 +73,7 @@ transport . voiture . km:
 
 
 transport . voiture . motorisation: 
-  question: Quel type de voiture utilisez-vous ?
+  question: Quel type de voiture utilises-tu ?
   description: |
     Si vous utilisez plusieurs voitures (par exemple dans le cas où vous n'en possédez pas une), choisissez la réponse la plus représentative de votre usage.
 
@@ -111,7 +111,7 @@ transport . voiture . gabarit . berline:
 transport . voiture . gabarit . SUV:
 
 transport . voiture . thermique . consommation aux 100:
-  question: Connaissez-vous la consommation moyenne de la voiture ?
+  question: Connais-tu la consommation moyenne de la voiture ?
   description: |
     Comme pour la motorisation, si vous utilisez plusieurs voitures (par exemple dans le cas où vous n'en possédez pas une), choisissez la réponse la plus représentative de votre usage.
 
@@ -289,7 +289,7 @@ transport . voiture . âge:
     toutes ces conditions: 
       - km > 0
       - propriétaire # Nous ne devrions pas avoir à poser ces conditions. Publicodes devrait déterminer lui-même qu'elles sont à poser après la question des km et la question propriétaire, mais la nouvelle version de publicodes a perdu ce côté magique.
-  question: Quel est l'âge de votre voiture ?
+  question: Quel est l'âge de ton voiture ?
   description: | 
     Pour calculer l'empreinte de la construction de la voiture, qu'il ne faut pas négliger, nous utilisons l'âge de la voiture.
     
@@ -357,7 +357,7 @@ transport . voiture . construction amortie . facteur location:
     - https://www.ademe.fr/sites/default/files/assets/documents/enquete-autopartage-2019-rapport.pdf
 
 transport . voiture . propriétaire:
-  question: Avez-vous votre propre voiture individuelle ?
+  question: As-tu ta propre voiture individuelle ?
   description: |
     Par opposition à l'utilisation exclusive de voitures de location partagées par d'autres personnes le reste du temps, ou l'utilisation de la voiture d'un ami, de la famille.
 
@@ -398,7 +398,7 @@ transport . avion:
 
 
 transport . avion . usager:
-  question: Prenez-vous l'avion ?
+  question: Prends-tu l'avion ?
   par défaut: oui
 
 transport . avion . court courrier:
@@ -415,7 +415,7 @@ transport . avion . court courrier . empreinte par km:
   unité: kgCO2e/km
 
 transport . avion . court courrier . heures de vol:
-  question: Combien d'heures par an voyagez-vous en avion en France métropolitaine ?
+  question: Combien d'heures par an voyages-tu en avion en France métropolitaine ?
   description: | 
     Comptez les heures que vous avez passé dans un avion pour des vols d'une distance inférieure à 1000km (à peu près). Si vous faites des escales, additionnez simplement les durées de chaque vol.
 
@@ -449,7 +449,7 @@ transport . avion . moyen courrier . empreinte par km:
   unité: kgCO2e/km
 
 transport . avion . moyen courrier . heures de vol:
-  question: Combien d'heures par an voyagez-vous en avion vers l'Europe ou le bassin méditerranéen ?
+  question: Combien d'heures par an voyages-tu en avion vers l'Europe ou le bassin méditerranéen ?
   description: | 
     Comptez les heures que vous avez passé dans un avion pour des vols d'une distance entre 1000km et 3500km (à peu près). Si vous faites des escales, additionnez simplement les durées de chaque vol.
 
@@ -482,7 +482,7 @@ transport . avion . long courrier . empreinte par km:
   unité: kgCO2e/km
 
 transport . avion . long courrier . heures de vol:
-  question: Combien d'heures par an voyagez-vous au-delà en vol long courrier ?
+  question: Combien d'heures par an voyages-tu au-delà en vol long courrier ?
   description: | 
     Comptez les heures que vous avez passé dans un avion pour des vols d'une distance supérieure à 3500km, c'est-à-dire au-delà de l'Europe et du pourtour méditerranéen. 
 
@@ -515,7 +515,7 @@ transport . train . impact par km:
   formule: 0.0056
   unité: kgCO2e/km
 transport . train . km:
-  question: Combien de kilomètres parcourez-vous en train par an ?
+  question: Combien de kilomètres parcoures-tu en train par an ?
   description: Les suggestions sont basées sur la distance à vol d'oiseau doublée pour considérer un aller-retour.
   suggestions: 
     traversée d'une région: 300
@@ -541,7 +541,7 @@ transport . métro ou tram . impact par heure:
     - http://www.bilans-ges.ademe.fr/
 
 transport . métro ou tram . heures par semaine:
-  question: Combien d'heures passez-vous par semaine en métro ou en tram ?
+  question: On sait que le métro parisien n’a plus de secret pour toi ! Combien d'heures passes-tu par semaine en métro ou en tram ?
   suggestions: 
     zéro: 0
     1h / jour: 7
@@ -568,7 +568,7 @@ transport . bus . impact par heure:
     - http://www.bilans-ges.ademe.fr/
 
 transport . bus . heures par semaine:
-  question: Combien d'heures passez-vous dans un bus par semaine ?
+  question: Combien d'heures passes-tu dans un bus par semaine pour te rendre en cours et pour te déplacer le week-end ?
   suggestions: 
     zéro: 0
     1h / jour: 7
@@ -599,7 +599,7 @@ transport . vélo . empreinte:
     Nous avons tous les ingrédients ici pour le faire, mais c'est loin d'être aussi simple. Le surplus d'activité physique est aussi associé à des risques et donc des dépenses de santé bien moindres.
 transport . vélo . km:
   titre: Kilomètres à vélo
-  question: Combien de kilomètres de vélo ou marche faites-vous par semaine ?
+  question: "Je trouve un Vélib et j’arrive !" Combien de kilomètres de vélo ou marche fais-tu par semaine ?
   description: |
     🚴 🛴 👟 
 
@@ -623,15 +623,15 @@ transport . deux roues thermique:
   applicable si: usager
   formule: empreinte * km
 transport . deux roues thermique . usager: 
-  question: Utilisez-vous un scooter ou une moto ?
+  question: Utilises-tu un scooter ou une moto pour te rendre à l’ESCP et pour te déplacer le week-end ?
   par défaut: oui
 
 transport . deux roues thermique . km: 
-  question: Combien de km faites-vous à l'année avec votre scooter ou moto ? 
+  question: Combien de km fais-tu à l'année avec ton scooter ou ta moto ? 
   par défaut: 1000 km
 
 transport . deux roues thermique . type: 
-  question: Quel type de deux roues thermique utilisez-vous ? 
+  question: Quel type de deux roues thermique utilises-tu ? 
   par défaut: "'scooter'"
   formule: 
     une possibilité: 

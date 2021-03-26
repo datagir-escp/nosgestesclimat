@@ -10,7 +10,7 @@ logement . impact:
       - électricité
       - chauffage autres
 logement . habitants: 
-  question: Combien de personnes vivent chez vous ?
+  question: En famille ou en coloc, combien de personnes vivent chez toi ?
   description: |
     Il s'agit de savoir combien de personnes partagent votre logement et toutes les consommations qu'il entraîne (construction, chauffage, etc).
 
@@ -27,7 +27,7 @@ logement . habitants:
   unité: personnes
 
 logement . surface: 
-  question: Quelle est la surface de votre logement ?
+  question: Quelle est la surface de ton logement étudiant ?
   par défaut: 80 m2
   note: |
     Valeur par défaut obtenue dans [ce rapport de l'INSEE](https://www.insee.fr/fr/statistiques/2586377).
@@ -67,7 +67,7 @@ logement . électricité:
 
 logement . électricité . consommation:
   icônes: ⚡
-  question: Quelle est la consommation annuelle d'électricité de votre foyer ?
+  question: Quelle est la consommation annuelle d'électricité de ton foyer ?
   unité: kWh
   par défaut: 5000 kWh
   aide: estimation via le coût
@@ -77,7 +77,7 @@ logement . électricité . consommation:
     Si vous vivez dans plusieurs logements (par exemple, si vous avez une residence secondaire), essayez de "ramener" ces consommations dans celles du logement principal afin d'avoir l'estimation la plus juste possible.
 
 logement . électricité . estimation via le coût:
-  question: Pas de facture ? Entrez vos dépenses approximatives par mois
+  question: Pas de facture ? Entre tes dépenses approximatives par mois
   unité: €/kWh
   formule: 0.15
   description: |
@@ -106,7 +106,7 @@ logement . bois . empreinte:
   formule: consommation * facteur d'émission
 
 logement . bois . chauffage au bois: 
-  question: Votre logement est-il chauffé au bois ?
+  question: Ton logement est-il chauffé au bois ?
   par défaut: non
 
 logement . bois . consommation: 
@@ -117,7 +117,7 @@ logement . bois . consommation:
       - sinon: granulés
 
 logement . bois . consommation . granulés: 
-  question: Quelle est la consommation annuelle de bois en granulés de votre foyer ?
+  question: Quelle est la consommation annuelle de bois en granulés de ton foyer ?
   unité: kWh
   aide: estimation via le coût
   par défaut: 10000 kWh
@@ -190,7 +190,7 @@ logement . bois . facteur d'émission . granulés:
 
 logement . bois . type:
   titre: type de bois
-  question: Quel type de bois utilisez-vous ?
+  question: Quel type de bois ?
   formule: 
     une possibilité: 
       choix obligatoire: oui
@@ -206,7 +206,7 @@ logement . gaz:
   formule: consommation * intensité carbone
 
 logement . gaz . chauffage au gaz: 
-  question: Votre logement est-il chauffé au gaz ? 
+  question: Ton logement est-il chauffé au gaz ? 
   par défaut: oui
   note: |
     Bien que le chauffage majoritaire en France soit électrique [source](https://fr.statista.com/statistiques/856283/types-chauffage-logement-principal-france), nous mettons ici la valeur par défaut à oui pour se rapprocher de la moyenne d'empreinte du logement. 
@@ -224,7 +224,7 @@ logement . gaz . estimation via le coût:
 
 logement . gaz . consommation:
   icônes: 🔥
-  question: Quelle est la consommation annuelle de gaz de votre foyer ?
+  question: Quelle est la consommation annuelle de gaz de ton foyer ?
   par défaut: 15000 kWh
   unité: kWh
   aide: estimation via le coût
@@ -242,7 +242,7 @@ logement . fioul:
   formule: consommation * intensité carbone
 
 logement . fioul . chauffage au fioul: 
-  question: Votre logement est-il chauffé au fioul ? 
+  question: Ton logement est-il chauffé au fioul ? 
   aide: estimation via le coût
   par défaut: non
 
@@ -257,7 +257,7 @@ logement . fioul . estimation via le coût:
 
 logement . fioul . consommation:
   icônes: 🛢
-  question: Quelle est la consommation annuelle de fioul domestique de votre foyer ?
+  question: Quelle est la consommation annuelle de fioul domestique de ton foyer ?
   unité: kWh
   description: |
     Astuce : Vous trouverez vos consommations annuelles d'énergie sur vos factures de gaz et d'électricité ou sur votre compte en ligne sur le site de votre fournisseur.

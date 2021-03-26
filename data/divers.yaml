@@ -13,7 +13,7 @@ divers . textile:
   formule: 0.5 * montant  
   unité: kgCO2e
 divers . textile . montant: 
-  question: Combien dépensez-vous par an en habits achetés neufs ?
+  question: Combien dépenses-tu par an en habits achetés neufs ? Oui, les pulls d’asso ça compte !
   description: |
     Nous excluons du calcul l'achat en friperies, la récupération, l'occasion.
   source: Base Carbone, ratio monétaire (textile et habillement 600 kgCO2e / k€ HT) ; https://www.bilans-ges.ademe.fr/fr/accueil/documentation-gene/index/page/Ratio-monetaires
@@ -28,7 +28,7 @@ divers . électroménager:
   unité: kgCO2e
 
 divers . électroménager . montant: 
-  question: Combien dépensez-vous par an en électroménager acheté neuf ? 
+  question: Combien dépenses-tu par an en électroménager acheté neuf ? 
   description: Nous excluons du calcul la récupération et l'occasion.
   unité: €/an
   par défaut: 1200 €/an
@@ -41,7 +41,7 @@ divers . autres produits:
   unité: kgCO2e
 
 divers . autres produits . montant: 
-  question: Combien dépensez-vous par an en produits manufacturés neufs (mobilier, livres, etc.) ? 
+  question: Combien dépenses-tu par an en produits manufacturés neufs (mobilier, livres, etc.) ? 
   unité: €/an
   description: | 
     Pour garder l'interface simple, nous proposons une estimation de l'empreinte de cette catégorie de produits basée sur leur coût. 
