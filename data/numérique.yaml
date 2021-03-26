@@ -91,10 +91,10 @@ numérique . ordinateur portable:
   unité: kgCO2e
 
 numérique . ordinateur fixe . présent:
-  question: Utilisez-vous un ordinateur fixe ?
+  question: Utilises-tu un ordinateur fixe ?
   par défaut: oui
 numérique . ordinateur fixe . durée:
-  question: Quel âge a votre ordinateur fixe ? 
+  question: Quel âge a ton ordinateur fixe ? 
   unité: ans
   par défaut: 5 ans
 numérique . ordinateur fixe:
@@ -126,7 +126,7 @@ numérique . ordinateur fixe . écran:
 
 
 numérique . téléphone . présent:
-  question: Utilisez-vous un téléphone ?
+  question: Utilises-tu un téléphone ?
   par défaut: oui
 
 numérique . téléphone . type:
@@ -213,10 +213,10 @@ numérique . téléphone . type . smartphone haut de gamme:
 
 
 numérique . tablette . présent:
-  question: Utilisez-vous une tablette ?
+  question: Utilises-tu une tablette ?
   par défaut: non
 numérique . tablette . durée:
-  question: Quel âge a votre tablette ? 
+  question: Quel âge a ta tablette ? 
   unité: ans
   par défaut: 4 ans
 numérique . tablette:
@@ -251,10 +251,10 @@ numérique . TV:
 
 
 numérique . vidéoprojecteur . présent:
-  question: Utilisez-vous un vidéoprojecteur ?
+  question: Utilises-tu un vidéoprojecteur ?
   par défaut: non
 numérique . vidéoprojecteur . durée:
-  question: Quel âge a votre vidéoprojecteur ? 
+  question: Quel âge a ton vidéoprojecteur ? 
   unité: ans
   par défaut: 4 ans
 numérique . vidéoprojecteur:
