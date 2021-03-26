@@ -16,11 +16,11 @@ bilan:
 
   formule: 
     somme: 
-      - logement
-      - transport
       - alimentation
       - numérique
+      - transport
       - divers
+      - logement
       - services publics
   références: 
     - http://avenirclimatique.org/les-outils
