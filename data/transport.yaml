@@ -10,7 +10,7 @@ transport:
     somme: 
       - voiture
       - avion
-      - deux roues thermiques
+      - deux roues thermique
       - bus
       - train
       - métro ou tram
