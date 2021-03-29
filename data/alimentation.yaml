@@ -141,7 +141,7 @@ alimentation . boisson . alcool . facteur:
 
 alimentation . boisson . alcool . litres: 
   titre: Consommation d'alcool
-  question: Quelle est ta consommation par semaine d'alcool (vin, bière, etc.) ? au Quatter ou ailleurs.
+  question: Quelle est ta consommation par semaine d'alcool (vin, bière, etc.) au Quatter ou ailleurs ?
   suggestions: 
     nulle: 0
     modérée: .5
@@ -382,7 +382,7 @@ alimentation . petit déjeuner:
       - sinon: 0
 
 alimentation . petit déjeuner . type: 
-  question: Quel petit déjeuner te correspond le plus ? Qu’il soit pris en 4ème vitesse dans le métro, ou en mode brunch royal.
+  question: Quel petit-déjeuner te correspond le plus ? Qu’il soit pris en 4ème vitesse dans le métro, ou en mode brunch royal.
   description: |
     Il existe une variété infinie de petit déjeuners. Nous en avons sélectionné quelques uns pour que vous obteniez une réponse facilement.
 
